@@ -20,7 +20,7 @@ USER_TO_INSPECT = args.user
 EVENT_BUNDLES_TO_READ = args.num_reqs
 
 GITHUB_USERNAME = args.login
-if args.login != GITHUB_USERNAME:
+if GITHUB_USERNAME != None:
     GITHUB_USERNAME = args.login
     GITHUB_PASSWORD = getpass('GitHub password for ' + GITHUB_USERNAME +': ')
     gh = Github(GITHUB_USERNAME, GITHUB_PASSWORD)
