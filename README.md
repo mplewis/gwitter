@@ -1,3 +1,11 @@
+Dependencies
+============
+
+* argparse
+* PyGithub
+
+Make sure those are installed.
+
 Try it out right now!
 =====================
 
