@@ -1,3 +1,5 @@
+Usage
+=====
 ````
 usage: gwitter.py [-h] [-l GITHUB_USERNAME] [-n REQUESTS] user
 
@@ -16,3 +18,8 @@ optional arguments:
                         if this is set too high, you'll run out of API
                         requests
 ````
+
+Try it out right now!
+=====================
+
+Clone the repo, then try out `python gwitter.py mplewis` to check out my commit history. It's that easy.
